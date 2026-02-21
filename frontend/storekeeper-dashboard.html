@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Store Keeper Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-container">
+      <div class="logo">🏪 College Store</div>
+      <div class="header-nav">
+        <a id="navAddItem" href="storekeeper-add-product.html" class="btn btn-small">Add An Item</a>
+      </div>
+      <div class="user-info">
+        <span id="userDisplay"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="dashboard">
+    <h1>🏢 Store Keeper Dashboard</h1>
+    <p id="welcome"></p>
+
+    <h2>Your Products</h2>
+    <div id="myProducts" class="product-grid"></div>
+    <p id="noProductsMsg" style="text-align: center; color: var(--text-light); display: none;">
+      No products yet. Add your first product below!
+    </p>
+
+    <h2>Products</h2>
+    <div style="margin-bottom:1rem;">
+      <a href="storekeeper-add-product.html" class="btn">Add New Product</a>
+    </div>
+
+    <h2>Orders Received</h2>
+    <div id="orders" class="product-grid"></div>
+    <p id="noOrdersMsg" style="text-align: center; color: var(--text-light); display: none;">
+      No orders yet.
+    </p>
+
+    <div style="text-align: center; margin: 3rem 0;">
+      <div class="btn-group">
+        <a id="addItemNavBtn" href="storekeeper-add-product.html" class="btn">Add An Item</a>
+        <button id="logoutBtn" class="btn btn-secondary">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/storekeeper.js"></script>
+</body>
+</html>

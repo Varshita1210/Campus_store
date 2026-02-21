@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Student Dashboard - College Merchandise</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-container">
+      <div class="logo">🏪 College Store</div>
+      <div class="user-info">
+        <span id="userDisplay"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="dashboard">
+    <h1>🛍️ Student Marketplace</h1>
+    <p id="welcome" style="margin-top: 0;"></p>
+
+    <div style="display: flex; gap: 1rem; margin: 2rem 0; flex-wrap: wrap;">
+      <input type="text" id="searchInput" placeholder="Search products..." style="flex: 1; min-width: 250px;">
+      <select id="tagFilter" style="min-width: 150px;">
+        <option value="">All Tags</option>
+      </select>
+    </div>
+
+    <h2>Available Products</h2>
+    <div id="products" class="product-grid"></div>
+    <p id="noProducts" style="text-align: center; color: var(--text-light); display: none;">
+      No products found. Try adjusting your filters.
+    </p>
+
+    <div style="text-align: center; margin: 3rem 0;">
+      <button id="logoutBtn" class="btn btn-secondary">Logout</button>
+    </div>
+  </div>
+
+  <script src="js/student.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Edit Product - Store Keeper</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-container">
+      <div class="logo">🏪 College Store</div>
+      <div class="header-nav">
+        <a id="navAddItem" href="storekeeper-add-product.html" class="btn btn-small">Add An Item</a>
+      </div>
+      <div class="user-info">
+        <span id="userDisplay"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="dashboard">
+    <h1>Edit Product</h1>
+    <p style="color: var(--text-light); margin-bottom:1.5rem;">Update the product details below.</p>
+    
+    <form id="editProductForm">
+      <div class="form-group">
+        <label for="pName">Product Name <span style="color: var(--danger-color);">*</span></label>
+        <input id="pName" type="text" placeholder="e.g., College Hoodie" required>
+        <small style="color: var(--text-light);">Product name.</small>
+      </div>
+      <div class="form-group">
+        <label for="pDescription">Description</label>
+        <textarea id="pDescription" placeholder="Describe your product in detail..."></textarea>
+        <small style="color: var(--text-light);">Optional but recommended for better sales.</small>
+      </div>
+      <div class="form-group">
+        <label for="pTags">Tags (comma-separated)</label>
+        <input id="pTags" type="text" placeholder="e.g., hoodie, apparel, college">
+        <small style="color: var(--text-light);">Help customers find your product with tags.</small>
+      </div>
+      <div class="form-group">
+        <label for="pImage">Image URL <span style="color: var(--danger-color);">*</span></label>
+        <input id="pImage" type="url" placeholder="https://example.com/image.jpg" required>
+        <small style="color: var(--text-light);">Link to a product image (must start with http:// or https://).</small>
+      </div>
+      <div class="form-group">
+        <label for="pPrice">Price ($) <span style="color: var(--danger-color);">*</span></label>
+        <input id="pPrice" type="number" step="0.01" placeholder="19.99" min="0.01" required>
+        <small style="color: var(--text-light);">Set a price greater than $0.</small>
+      </div>
+      <button type="submit" class="btn btn-block">Save Changes</button>
+    </form>
+
+    <div style="text-align: center; margin: 3rem 0;">
+      <div class="btn-group">
+        <a href="storekeeper-dashboard.html" class="btn btn-secondary">Back</a>
+        <button id="logoutBtn" class="btn btn-secondary">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/edit-product.js"></script>
+</body>
+</html>

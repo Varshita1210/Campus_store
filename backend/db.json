@@ -1,0 +1,501 @@
+{
+  "users": [
+    {
+      "id": "530c877c-46e9-4c87-8aa6-7abf2c1b0078",
+      "username": "store1",
+      "email": "store1@example.com",
+      "password": "$2a$10$U7iD0as5J7hSqDi/e6EiJOl3mnMtHegD86etpdhXxllalDEgGFhlW",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T11:36:53.859Z"
+    },
+    {
+      "id": "433b88a9-4e94-4701-acfb-61d33da24c80",
+      "username": "student1",
+      "email": "student1@example.com",
+      "password": "$2a$10$KuiYYGUMr.A4aFcohk3HPejJSH.KnAqCUDrI3PI3xn9XcB2Pqy94S",
+      "role": "student",
+      "createdAt": "2026-02-21T11:36:57.121Z"
+    },
+    {
+      "id": "a8befb99-171f-4572-8be2-c7aaeada53be",
+      "username": "asdfghj",
+      "email": "pvarshitha_csm246663@mgit.ac",
+      "password": "$2a$10$hx33zH3SRtCimMTJFg3U2ewC7LFioU5jTbA9AYKw13B7pJ1QCF3qG",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T13:21:30.603Z"
+    },
+    {
+      "id": "dd799a20-21c0-4bf4-9d93-a6ff15a0c2d3",
+      "username": "asdfghjjok",
+      "email": "mgit@gmail.com",
+      "password": "$2a$10$Rv3sUotGDB6A1pXBh3CHceMWcVfTj2SpQS/yPlMgZvsAVnRP.Lh5y",
+      "role": "student",
+      "createdAt": "2026-02-21T13:23:41.609Z"
+    },
+    {
+      "id": "55a12263-3ca6-4601-af7d-1632a1e58fac",
+      "username": "store2",
+      "email": "store2@college.edu",
+      "password": "$2a$10$tfTjBlKXFXWkENDzMbGxruZwjvfN/sasCzkaoVoWGm15PLJEkFSRC",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T13:52:02.075Z"
+    },
+    {
+      "id": "1b26ba0b-8c37-43be-aa2d-dfd88dd0f153",
+      "username": "john_student",
+      "email": "john@college.edu",
+      "password": "$2a$10$s1txD2KtpHFD01GaIso1XOX0WzcK.qAEijv5MxJT6.HvtJ9wvIcne",
+      "role": "student",
+      "createdAt": "2026-02-21T13:52:33.362Z"
+    },
+    {
+      "id": "4f741366-f5c3-4287-876f-69929427bd6f",
+      "username": "Ganesh",
+      "email": "varshita101206@gmail.com",
+      "password": "$2a$10$b9FJPWbLC60hCI4EbLrq0.smZHX398rZPFPhtJ0qO0nnbFOf0gTBC",
+      "role": "student",
+      "createdAt": "2026-02-21T17:03:03.055Z"
+    },
+    {
+      "id": "94181d79-15e1-4a9f-898f-c320b482ddb9",
+      "username": "Ganesh_124",
+      "email": "pvarshitha_csm246663@ac.in",
+      "password": "$2a$10$TsBFXsMu5g80w.mfjYZ8x.MtrOA6tpfq3pzGTVOxl9r6p9nDHRhlG",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T17:05:20.858Z"
+    },
+    {
+      "id": "d8a321c7-1121-4aaa-bf50-ed9c80dfba51",
+      "username": "smoke_store",
+      "email": "smoke_store@example.com",
+      "password": "$2a$10$H51XjFPsRBggD4hV61h/QeQWOE8pI72tqSoQMtiTGcJIR60bwV7jC",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T17:39:55.940Z",
+      "storeName": "Smoke Store",
+      "location": "Test Campus"
+    },
+    {
+      "id": "7eb00091-fb7a-4970-9f51-85f7f085e538",
+      "username": "smoke_store_mlwlz7yu",
+      "email": "smoke_store_mlwlz7yu@example.com",
+      "password": "$2a$10$cYre0tYOp.YqrCsIHoljUOtCvLwoa/eHWTu455pOz4B279ryzKuni",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T17:44:32.199Z",
+      "storeName": "Smoke Store",
+      "location": "Test Campus"
+    },
+    {
+      "id": "2eedac0c-ae13-4333-ab7e-7d1757bac116",
+      "username": "smoke_store_mlwmdugx",
+      "email": "smoke_store_mlwmdugx@example.com",
+      "password": "$2a$10$OdoZ6fhhfRLppcegenByReBIL35nIW2ijo2JGm.SK0ZEyciIIZNQe",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T17:55:54.503Z",
+      "storeName": "Smoke Store",
+      "location": "Test Campus"
+    },
+    {
+      "id": "6effcd59-57a0-4f8c-9a18-dd6ee54fa008",
+      "username": "smoke_store_mlwmjd85",
+      "email": "smoke_store_mlwmjd85@example.com",
+      "password": "$2a$10$PsIMvhPmkN2kzie5.50sk.n80VkrD.L/ZtNQtUEJE8jPry04HPLme",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:00:12.074Z",
+      "storeName": "Smoke Store",
+      "location": "Test Campus"
+    },
+    {
+      "id": "2c943b29-72bf-474d-85f9-4b4ebfa86e28",
+      "username": "Ganesh_",
+      "email": "pvarshitha_csm246663@mgit.ac.asdfg",
+      "password": "$2a$10$05UP5qRcIjYzT/8ZTSKtYOt3QmcYumklYSfGaRZWR2dPGvZsnqvx6",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:01:46.512Z",
+      "storeName": "sdfghjk",
+      "location": "asdghkl"
+    },
+    {
+      "id": "c2cc20ef-32ed-4ccc-b42c-bcf17f2d267d",
+      "username": "teststore_mlwmykdv",
+      "email": "teststore_mlwmykdv@example.com",
+      "password": "$2a$10$4bKCSAt6bAnR.reSQCh8heoV60P/RxxlV09UvJ0Ww17XW7Zwh7/J2",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:12:01.230Z",
+      "storeName": "Test Store",
+      "location": "Test Location"
+    },
+    {
+      "id": "1f1aa619-dc4b-4b49-ab30-d4c8ba111335",
+      "username": "teststore_mlwmzb9m",
+      "email": "teststore_mlwmzb9m@example.com",
+      "password": "$2a$10$yujJS7rjA6OaVmKyESTpVOHlozaAzPOyhH/5XjVNESRvLdiILw3pC",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:12:36.131Z",
+      "storeName": "Test Store",
+      "location": "Test Location"
+    },
+    {
+      "id": "6d67fe03-4bcb-46e8-82cd-288906362e57",
+      "username": "teststore_mlwn0bpt",
+      "email": "teststore_mlwn0bpt@example.com",
+      "password": "$2a$10$ixO5nYjiIRbu4tuU5pR22.BSFMpE6Asi1l5jDqD5EBPzYKo9muw7G",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:13:23.271Z",
+      "storeName": "Test Store",
+      "location": "Test Location"
+    },
+    {
+      "id": "b2a364bd-dc0b-4151-a697-3245f3748370",
+      "username": "teststore_mlwn9ydo",
+      "email": "teststore_mlwn9ydo@example.com",
+      "password": "$2a$10$iXcu9pj6D7RqXvjqA0vqhuC/0/OxJGx85YqaLmZGTgcZKqk4zvgzq",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:20:52.597Z",
+      "storeName": "Test Store",
+      "location": "Test Location"
+    },
+    {
+      "id": "67d97329-3756-4351-8e17-29b0ef1b966b",
+      "username": "B.Ganesh",
+      "email": "bganesh@mgit.in",
+      "password": "$2a$10$kjNJUEfopCyMos/h/cHoeOdY9Bdapq8tTmwgMAu2qpAX2mJn2GmWu",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:31:28.790Z",
+      "storeName": "hoodies",
+      "location": "Hyderabad"
+    },
+    {
+      "id": "915b8c0a-ddfb-4994-84ef-7f24024681be",
+      "username": "Ganesh_123",
+      "email": "Ganesh_123@mgit.in",
+      "password": "$2a$10$HAhE5L8vNLYJJZz46XSmq.tHUzvoaKDT7rPzYuf3jmKcUuPcao3sC",
+      "role": "student",
+      "createdAt": "2026-02-21T18:34:28.480Z"
+    },
+    {
+      "id": "256396e8-11ca-4bd4-affd-685942b2dc42",
+      "username": "logout_test_ekre6",
+      "email": "logout_test_ekre6@example.com",
+      "password": "$2a$10$8ZMlNa1IcddIwqqad.TLfOEXExRMbHDn1FtxIUV5szLkCVclIs8S6",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:37:03.932Z",
+      "storeName": "Test Store",
+      "location": "Test Location"
+    },
+    {
+      "id": "a601faf7-f289-4790-884a-5c9066082f27",
+      "username": "logout_fix_0k6bc5",
+      "email": "logout_fix_test_0k6bc5@example.com",
+      "password": "$2a$10$.JYT70QPTO0I2RbVugimXe3kwjXlVHQOSPyNcRTovoXmcRfLwKVQu",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:38:59.148Z",
+      "storeName": "Logout Test Store",
+      "location": "Test Location"
+    },
+    {
+      "id": "589ebbc4-20c7-4e85-aec3-23195b07e867",
+      "username": "logout_fix_bjnzeg",
+      "email": "logout_fix_test_bjnzeg@example.com",
+      "password": "$2a$10$NeqQgs5OW56S2wlVMkiUGu6ArplR9ofT58.og/1d./FK4OAw2wSD2",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:40:16.287Z",
+      "storeName": "Logout Test Store",
+      "location": "Test Location"
+    },
+    {
+      "id": "ab494cdf-fcb0-4f5f-aa6b-f215091703d6",
+      "username": "diag_i0r1op",
+      "email": "diag_test_i0r1op@example.com",
+      "password": "$2a$10$q59IpVZuM/CJDNikysDzyOxkuxoa4UP9OcmQBRDmQzPB4zuMSuI1O",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:41:57.122Z",
+      "storeName": "Diagnostic Store",
+      "location": "Test"
+    },
+    {
+      "id": "5138ad42-ae96-4820-b3a6-e8d6fdc3c9e0",
+      "username": "diag_bpd3ic",
+      "email": "diag_test_bpd3ic@example.com",
+      "password": "$2a$10$lSGDWBo737uVZwum52e8zu/v2GU8XVfgupiB8PJeJtg9Agz1eROQm",
+      "role": "storekeeper",
+      "createdAt": "2026-02-21T18:42:07.142Z",
+      "storeName": "Diagnostic Store",
+      "location": "Test"
+    },
+    {
+      "id": "1a7e6b8f-ab61-48c1-9bfc-793f01164294",
+      "username": "Ganesh_1234",
+      "email": "Ganesh@MGIT.AC.IN",
+      "password": "$2a$10$C0wJf66fs99EkIVW0stwkuc2p3772Cyld5nQfs3GmuMWIL.oK5MOi",
+      "role": "student",
+      "createdAt": "2026-02-21T20:48:17.098Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "104d9f0a-8d20-431d-9898-9c191f6d19dc",
+      "storeKeeperId": "530c877c-46e9-4c87-8aa6-7abf2c1b0078",
+      "name": "College Hoodie",
+      "price": 45.5,
+      "description": "Warm hoodie",
+      "category": "Apparel",
+      "tags": [
+        "hoodie",
+        "college"
+      ],
+      "imageUrl": "https://example.com/hoodie.jpg",
+      "createdAt": "2026-02-21T11:36:53.862Z"
+    },
+    {
+      "id": "698adfb4-5513-4351-8a21-17e4dd4b847b",
+      "storeKeeperId": "a8befb99-171f-4572-8be2-c7aaeada53be",
+      "name": "dfghjkl",
+      "price": 12131,
+      "description": "dfghjkl",
+      "category": "General",
+      "tags": [
+        "sdfghj",
+        "sdfghjk"
+      ],
+      "imageUrl": "htts://image.com",
+      "createdAt": "2026-02-21T13:21:30.615Z"
+    },
+    {
+      "id": "e28036c6-dda0-410e-b4f0-73f15f6fa64b",
+      "storeKeeperId": "a8befb99-171f-4572-8be2-c7aaeada53be",
+      "name": "sdfghj",
+      "price": 123456,
+      "description": "sdfghj",
+      "category": "General",
+      "tags": [
+        "sdfghjk"
+      ],
+      "imageUrl": "imahe.c.com",
+      "createdAt": "2026-02-21T13:21:53.212Z"
+    },
+    {
+      "id": "47ebeb05-3da5-4f40-86c0-44746f86fc3f",
+      "storeKeeperId": "55a12263-3ca6-4601-af7d-1632a1e58fac",
+      "name": "Campus Backpack",
+      "price": 49.99,
+      "description": "Durable college backpack",
+      "category": "Accessories",
+      "tags": [
+        "backpack",
+        "college",
+        "durable"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+      "createdAt": "2026-02-21T13:52:02.078Z"
+    },
+    {
+      "id": "299fc989-b9ad-47c9-a463-c4c5145bf6a4",
+      "storeKeeperId": "94181d79-15e1-4a9f-898f-c320b482ddb9",
+      "name": "T-shirt",
+      "price": 11,
+      "description": "T-shirt",
+      "category": "General",
+      "tags": [
+        "shirt",
+        "collar"
+      ],
+      "imageUrl": "https://www.bing.com/images/search?view=detailV2&ccid=5cN%2fzvKz&id=A7C97E00DBCC90C5B00C29B6773CD7A4862DA2DA&thid=OIP.5cN_zvKz3OajU_cv0ZJJAQHaE7&mediaurl=https%3a%2f%2fcdn.pixabay.com%2fphoto%2f2023%2f05%2f06%2f01%2f34%2ft-shirt-7973404_1280.jpg&exph=853&expw=1280&q=tshirt&FORM=IRPRST&ck=F8A43DEE3D1F48D954FEA75E1FE7D405&selectedIndex=3&itb=0&mode=overlay",
+      "createdAt": "2026-02-21T17:05:20.871Z"
+    },
+    {
+      "id": "4e9499e4-bc91-415c-a9de-81c68e7bc048",
+      "storeKeeperId": "d8a321c7-1121-4aaa-bf50-ed9c80dfba51",
+      "name": "Smoke Test Tee",
+      "price": 9.99,
+      "description": "Test product",
+      "category": "Apparel",
+      "tags": [
+        "test",
+        "tee"
+      ],
+      "imageUrl": "https://example.com/test.jpg",
+      "createdAt": "2026-02-21T17:39:56.102Z"
+    },
+    {
+      "id": "fa69a7fe-fd02-4b36-bf69-dff0124ee010",
+      "storeKeeperId": "7eb00091-fb7a-4970-9f51-85f7f085e538",
+      "name": "Smoke Test Tee",
+      "price": 9.99,
+      "description": "Test product",
+      "category": "Apparel",
+      "tags": [
+        "test",
+        "tee"
+      ],
+      "imageUrl": "https://example.com/test.jpg",
+      "createdAt": "2026-02-21T17:44:32.387Z"
+    },
+    {
+      "id": "daebeb4d-8207-41c1-9d39-751510f5801b",
+      "storeKeeperId": "2eedac0c-ae13-4333-ab7e-7d1757bac116",
+      "name": "Smoke Test Tee",
+      "price": 9.99,
+      "description": "Test product",
+      "category": "Apparel",
+      "tags": [
+        "test",
+        "tee"
+      ],
+      "imageUrl": "https://example.com/test.jpg",
+      "createdAt": "2026-02-21T17:55:54.630Z"
+    },
+    {
+      "id": "f23a53ba-7fd5-4164-8efe-2ea56be06190",
+      "storeKeeperId": "6effcd59-57a0-4f8c-9a18-dd6ee54fa008",
+      "name": "Smoke Test Tee",
+      "price": 9.99,
+      "description": "Test product",
+      "category": "Apparel",
+      "tags": [
+        "test",
+        "tee"
+      ],
+      "imageUrl": "https://example.com/test.jpg",
+      "createdAt": "2026-02-21T18:00:12.220Z"
+    },
+    {
+      "id": "80cc0980-0885-4e93-beed-8e29399a3251",
+      "storeKeeperId": "2c943b29-72bf-474d-85f9-4b4ebfa86e28",
+      "name": "oodie",
+      "price": 74185,
+      "description": "sdfghjkl;/. cfghnbgyjnvghjmn",
+      "category": "General",
+      "tags": [
+        "sdfghj",
+        "adfgh"
+      ],
+      "imageUrl": "https://pixabay.com/illustrations/realistic-white-hoodie-clothing-8737344/",
+      "createdAt": "2026-02-21T18:03:12.285Z"
+    },
+    {
+      "id": "5767c4cf-afaa-4bb7-8170-5e2d0a323650",
+      "storeKeeperId": "2c943b29-72bf-474d-85f9-4b4ebfa86e28",
+      "name": "oodie-",
+      "price": 741,
+      "description": "oodie-",
+      "category": "General",
+      "tags": [
+        "sdfghj",
+        "adfgh"
+      ],
+      "imageUrl": "https://pixabay.com/images/download/pixellabs-realistic-8737344_1920.jpg",
+      "createdAt": "2026-02-21T18:07:38.697Z"
+    },
+    {
+      "id": "8afb5a0c-0e55-43b5-8839-3ac156bf4aff",
+      "storeKeeperId": "c2cc20ef-32ed-4ccc-b42c-bcf17f2d267d",
+      "name": "Test Product 1",
+      "price": 19.99,
+      "description": "This is a test product",
+      "category": "Test",
+      "tags": [
+        "test",
+        "product"
+      ],
+      "imageUrl": "https://example.com/product.jpg",
+      "createdAt": "2026-02-21T18:12:01.348Z"
+    },
+    {
+      "id": "474d4254-e1d6-492e-a210-9fb7b9097cdc",
+      "storeKeeperId": "1f1aa619-dc4b-4b49-ab30-d4c8ba111335",
+      "name": "Test Product 1 - Updated",
+      "price": 24.99,
+      "description": "Updated description",
+      "category": "Test",
+      "tags": [
+        "test",
+        "updated"
+      ],
+      "imageUrl": "https://example.com/updated.jpg",
+      "createdAt": "2026-02-21T18:12:36.298Z"
+    },
+    {
+      "id": "fc6d48b1-7e61-4866-bfb6-cf1a5c05431c",
+      "storeKeeperId": "6d67fe03-4bcb-46e8-82cd-288906362e57",
+      "name": "Test Product 1 - Updated",
+      "price": 24.99,
+      "description": "Updated description",
+      "category": "Test",
+      "tags": [
+        "test",
+        "updated"
+      ],
+      "imageUrl": "https://example.com/updated.jpg",
+      "createdAt": "2026-02-21T18:13:23.357Z"
+    },
+    {
+      "id": "5baa45ee-ca31-4888-9f16-0ce03e811ccb",
+      "storeKeeperId": "b2a364bd-dc0b-4151-a697-3245f3748370",
+      "name": "Test Product 1 - Updated",
+      "price": 24.99,
+      "description": "Updated description",
+      "category": "Test",
+      "tags": [
+        "test",
+        "updated"
+      ],
+      "imageUrl": "https://example.com/updated.jpg",
+      "createdAt": "2026-02-21T18:20:52.710Z"
+    },
+    {
+      "id": "895cacac-7800-4e5f-b1af-c9cd1fc0a719",
+      "storeKeeperId": "2c943b29-72bf-474d-85f9-4b4ebfa86e28",
+      "name": "hoodie",
+      "price": 741,
+      "description": "hoodie",
+      "category": "General",
+      "tags": [
+        "sdfghj",
+        "adfgh"
+      ],
+      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/026/325/400/small/white-hoodie-mockup-empty-and-3d-isolated-on-a-plain-background-ai-generated-photo.jpg",
+      "createdAt": "2026-02-21T18:26:41.350Z"
+    },
+    {
+      "id": "7b0d5e39-de69-4621-baab-65e5fea8e8d5",
+      "storeKeeperId": "67d97329-3756-4351-8e17-29b0ef1b966b",
+      "name": "Hoodie",
+      "price": 56,
+      "description": "it is an simple and special product",
+      "category": "General",
+      "tags": [
+        "hoodie",
+        "head covered"
+      ],
+      "imageUrl": "https://www.kingsize.com/on/demandware.static/-/Sites-masterCatalog_KingSizeDirect/default/dw6985bd77/images/hi-res/1165_22865_mc_2313.jpg",
+      "createdAt": "2026-02-21T18:33:17.605Z"
+    },
+    {
+      "id": "3662899f-601e-496b-b0c0-b1f07f91fc1a",
+      "storeKeeperId": "a601faf7-f289-4790-884a-5c9066082f27",
+      "name": "Test Product",
+      "price": 29.99,
+      "description": "A test product for logout verification",
+      "category": "Test",
+      "tags": [
+        "test"
+      ],
+      "imageUrl": "https://via.placeholder.com/150",
+      "createdAt": "2026-02-21T18:38:59.252Z"
+    },
+    {
+      "id": "b6905f8e-6a40-4d82-93d5-ba931b804172",
+      "storeKeeperId": "589ebbc4-20c7-4e85-aec3-23195b07e867",
+      "name": "Test Product",
+      "price": 29.99,
+      "description": "A test product for logout verification",
+      "category": "Test",
+      "tags": [
+        "test"
+      ],
+      "imageUrl": "https://via.placeholder.com/150",
+      "createdAt": "2026-02-21T18:40:16.383Z"
+    }
+  ],
+  "orders": []
+}
